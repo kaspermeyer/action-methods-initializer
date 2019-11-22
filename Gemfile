@@ -27,6 +27,10 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+
+# Enabling this PR branch fixes the boot issue
+# gem 'actionview-component', github: "kaspermeyer/actionview-component", branch: "disable-action-methods-initializer"
+
 gem 'actionview-component', '1.5.1'
 
 group :development, :test do
